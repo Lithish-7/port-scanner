@@ -1,17 +1,27 @@
 # 🔍 Port Scanner
 
-A simple network port scanner written in Python. It checks a host (domain or IP) for open TCP ports.
+A simple and lightweight **network port scanner** written in Python. This tool checks for open TCP ports on a given IP address or domain using socket programming.
+
+---
 
 ## 🚀 Features
+
+- Scan specific IPs or domain names
+- Set a custom range of ports (e.g. 20–100)
+- Simple command-line interface
 - Fast socket-based scanning
-- Scans custom port ranges
-- Command-line interface
+
+---
 
 ## 🛠 Requirements
-- Python 3.x
+
+- Python 3.x  
+No external libraries required — uses built-in `socket` module.
+
+---
 
 ## ▶️ How to Use
 
-1. Run the script:
+1. Open terminal and run:
 ```bash
 python scanner.py
